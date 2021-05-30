@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:style="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    tools:context=".FlightSimulationWithARCore.FlightSimulationWithARCoreFragment">
+
+    <LinearLayout
+        android:id="@+id/arcorecLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/resetButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:backgroundTint="#FFD6D6D6"
+                android:text="@string/flightsimulationwitharcore_reset_button"
+                android:textColor="@color/button_textcolor" />
+
+            <ToggleButton
+                android:id="@+id/startButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flightsimulationwitharcore_start_button"
+                android:textOff="@string/flightsimulationwitharcore_start_button"
+                android:textOn="@string/flightsimulationwitharcore_stop_button" />
+
+            <CheckBox
+                android:id="@+id/demoButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flightsimulationwitharcore_demo_button" />
+
+            <SeekBar
+                android:id="@+id/speedSeekbar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:max="5"
+                android:min="0"
+                android:progress="1" />
+
+        </LinearLayout>
+
+        <android.opengl.GLSurfaceView
+            android:id="@+id/Surfaceview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</FrameLayout>

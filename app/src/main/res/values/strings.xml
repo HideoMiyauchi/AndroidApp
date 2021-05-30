@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Hideo Miyauchi</string>
+    <string name="nav_header_subtitle">Always hungry to keep learning.</string>
+
+    <!-- for Contact Me strings -->
+    <string name="menu_contactme">Contact Me</string>
+
+    <!-- for FlightSimulation strings -->
+    <string name="menu_flightsimulationwitharcore">Flight Simulation (AR)</string>
+    <string name="flightsimulationwitharcore_reset_button">RESET</string>
+    <string name="flightsimulationwitharcore_start_button">START</string>
+    <string name="flightsimulationwitharcore_stop_button">STOP</string>
+    <string name="flightsimulationwitharcore_demo_button">DEMO</string>
+
+</resources>
