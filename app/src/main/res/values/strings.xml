@@ -4,6 +4,7 @@
 
     <!-- for Contact Me strings -->
     <string name="menu_contactme">Contact Me</string>
+    <string name="flightsimulatorimage">FlightSimulatorImage</string>
 
     <!-- for FlightSimulation strings -->
     <string name="menu_flightsimulationwitharcore">Flight Simulation (AR)</string>
@@ -11,5 +12,8 @@
     <string name="flightsimulationwitharcore_start_button">START</string>
     <string name="flightsimulationwitharcore_stop_button">STOP</string>
     <string name="flightsimulationwitharcore_demo_button">DEMO</string>
+
+    <!-- for dummy -->
+    <string name="dummy">dummy</string>
 
 </resources>

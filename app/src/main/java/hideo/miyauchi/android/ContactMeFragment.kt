@@ -45,6 +45,8 @@ class ContactMeFragment : Fragment(), Html.ImageGetter {
         <html>
             <h3>Flight Simulation (AR)</h3>
             Flight simulator using Google's Augmented-Reality (AR) technology.
+            This application runs on Google Play Services for AR (ARCore), which is provided by Google LLC and governed by the Google Privacy Policy.
+            To power this session, Google will process visual data from your camera.
         </html>
     """.trimIndent()
 
