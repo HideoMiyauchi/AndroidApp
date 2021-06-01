@@ -32,8 +32,11 @@ class ContactMeFragment : Fragment(), Html.ImageGetter {
             <p>Have fun!
             <p>
             <a href="https://www.facebook.com/hideo.miyauchi"><img src="ContactMe/facebook.png"></a>
+            &nbsp;
             <a href="https://hideomiyauchi.github.io/"><img src="ContactMe/githubpages.png"></a>
+            &nbsp;            
             <a href="https://github.com/HideoMiyauchi"><img src="ContactMe/github.png"></a>
+            &nbsp;            
             <a href="https://www.youtube.com/channel/UCyheSr7bp_ySygeQwl76yMg"><img src="ContactMe/youtube.png"></a>                                                                               
         </html>
     """.trimIndent()
@@ -41,7 +44,7 @@ class ContactMeFragment : Fragment(), Html.ImageGetter {
     private val flightsimulationText: String = """
         <html>
             <h3>Flight Simulation (AR)</h3>
-            Flight simulator using Augmented-Reality (AR) technology.
+            Flight simulator using Google's Augmented-Reality (AR) technology.
         </html>
     """.trimIndent()
 

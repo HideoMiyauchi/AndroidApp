@@ -43,6 +43,8 @@ class MainActivity : AppCompatActivity() {
 
         drawerLayout.openDrawer(Gravity.LEFT)
 
+        binding.navView.menu.findItem(R.id.nav_flightsimulationwitharcore).setEnabled(false)
+        
         isSupportedArCoreDevice = isArCoreSupportDevice()
     }
 
@@ -113,7 +115,7 @@ class MainActivity : AppCompatActivity() {
     private fun isArCoreSupportDevice(): Boolean {
         val availability = ArCoreApk.getInstance().checkAvailability(this)
         if (availability.isTransient) {
-            var ret: Boolean = false
+            var ret = false
             Handler(Looper.getMainLooper()).postDelayed({
                 ret = isArCoreSupportDevice()
             }, 200)
